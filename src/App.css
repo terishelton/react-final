@@ -1,0 +1,65 @@
+
+body, h2, .h2 { color: #666; }
+section { padding: 20px; }
+
+.App-logo svg {
+  color: #4b2e83;
+}
+
+.App-logo span { 
+  vertical-align: super; 
+  color: #4b2e83;
+  margin-left: 10px;
+}
+
+.App-header {
+  min-height: 5vw;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link, .btn, a:link, a:visited {
+  color: #3DB6B8;
+}
+
+.nav-link { font-size: 1rem;}
+
+nav p { font-size: 1rem; margin-bottom: 0; }
+
+.card {
+  width: 18rem;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+}
+
+#NewsSourceList { margin: 20px 0; }
+#NewsSourceList p { display: inline; }
+
+.NewsCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.NewsCards .card {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.h2, h2 { font-size: 1.5rem; }
+
+.h3, h3 {
+  font-size: 1.25rem;
+  margin-top: 15px;
+}
+
+article:not(:last-child) {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  margin-bottom: 40px;
+}
+
+.card-body { padding: .75rem 1.25rem 1.25rem 1.25rem; }
